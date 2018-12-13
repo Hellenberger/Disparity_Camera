@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38A16EF9284A9AAE297F1A19 /* Pods_Disparity_Camera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC057D0444BAF1FF463E566E /* Pods_Disparity_Camera.framework */; };
+		E90E3D4321BED40100744A09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90E3D4221BED40100744A09 /* AppDelegate.swift */; };
+		E90E3D4921BED40100744A09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90E3D4821BED40100744A09 /* ViewController.swift */; };
+		E90E3D5121BED40400744A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90E3D4F21BED40400744A09 /* LaunchScreen.storyboard */; };
+		E90E3D5921BEE75200744A09 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90E3D5821BEE75200744A09 /* main.storyboard */; };
+		E90E3D8821BF1EFC00744A09 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90E3D8721BF1EFB00744A09 /* PreviewViewController.swift */; };
+		E96ABA0521C0734900908DC9 /* Launchimage2.png in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA0421C0734900908DC9 /* Launchimage2.png */; };
+		E96ABA1221C07EDD00908DC9 /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA0821C07ED900908DC9 /* 1024.png */; };
+		E96ABA1321C07EDD00908DC9 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA0921C07EDA00908DC9 /* 120.png */; };
+		E96ABA1421C07EDD00908DC9 /* 120-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA0A21C07EDA00908DC9 /* 120-1.png */; };
+		E96ABA1521C07EDD00908DC9 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA0B21C07EDA00908DC9 /* 180.png */; };
+		E96ABA1621C07EDD00908DC9 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA0C21C07EDA00908DC9 /* 87.png */; };
+		E96ABA1721C07EDD00908DC9 /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA0D21C07EDB00908DC9 /* 60.png */; };
+		E96ABA1821C07EDD00908DC9 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA0E21C07EDB00908DC9 /* 58.png */; };
+		E96ABA1921C07EDD00908DC9 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA0F21C07EDC00908DC9 /* Contents.json */; };
+		E96ABA1A21C07EDD00908DC9 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA1021C07EDC00908DC9 /* 80.png */; };
+		E96ABA1B21C07EDD00908DC9 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA1121C07EDD00908DC9 /* 40.png */; };
+		E96ABA1D21C0803700908DC9 /* Launchimage1.png in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA1C21C0803700908DC9 /* Launchimage1.png */; };
+		E96ABA1F21C081D600908DC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96ABA1E21C081D600908DC9 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F3D7579507E23DB025C9E9B /* Pods-Disparity Camera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disparity Camera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Disparity Camera/Pods-Disparity Camera.debug.xcconfig"; sourceTree = "<group>"; };
+		6430D601627DD44045B413AC /* Pods-Disparity Camera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disparity Camera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Disparity Camera/Pods-Disparity Camera.release.xcconfig"; sourceTree = "<group>"; };
+		E90E3D3F21BED40100744A09 /* Disparity Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disparity Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90E3D4221BED40100744A09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E90E3D4821BED40100744A09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E90E3D5021BED40400744A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E90E3D5221BED40400744A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90E3D5821BEE75200744A09 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		E90E3D8721BF1EFB00744A09 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		E96ABA0421C0734900908DC9 /* Launchimage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launchimage2.png; sourceTree = "<group>"; };
+		E96ABA0821C07ED900908DC9 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		E96ABA0921C07EDA00908DC9 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		E96ABA0A21C07EDA00908DC9 /* 120-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "120-1.png"; sourceTree = "<group>"; };
+		E96ABA0B21C07EDA00908DC9 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		E96ABA0C21C07EDA00908DC9 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		E96ABA0D21C07EDB00908DC9 /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		E96ABA0E21C07EDB00908DC9 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		E96ABA0F21C07EDC00908DC9 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		E96ABA1021C07EDC00908DC9 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		E96ABA1121C07EDD00908DC9 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		E96ABA1C21C0803700908DC9 /* Launchimage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launchimage1.png; sourceTree = "<group>"; };
+		E96ABA1E21C081D600908DC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC057D0444BAF1FF463E566E /* Pods_Disparity_Camera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Disparity_Camera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E90E3D3C21BED40100744A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A16EF9284A9AAE297F1A19 /* Pods_Disparity_Camera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C393A638D14BB15BB879CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC057D0444BAF1FF463E566E /* Pods_Disparity_Camera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE600702D04996DED3EFC003 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F3D7579507E23DB025C9E9B /* Pods-Disparity Camera.debug.xcconfig */,
+				6430D601627DD44045B413AC /* Pods-Disparity Camera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E90E3D3621BED40100744A09 = {
+			isa = PBXGroup;
+			children = (
+				E90E3D4121BED40100744A09 /* Disparity Camera */,
+				E90E3D4021BED40100744A09 /* Products */,
+				CE600702D04996DED3EFC003 /* Pods */,
+				9C393A638D14BB15BB879CCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E90E3D4021BED40100744A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E90E3D3F21BED40100744A09 /* Disparity Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E90E3D4121BED40100744A09 /* Disparity Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E96ABA0421C0734900908DC9 /* Launchimage2.png */,
+				E90E3D4221BED40100744A09 /* AppDelegate.swift */,
+				E90E3D4821BED40100744A09 /* ViewController.swift */,
+				E96ABA1121C07EDD00908DC9 /* 40.png */,
+				E96ABA0E21C07EDB00908DC9 /* 58.png */,
+				E96ABA0D21C07EDB00908DC9 /* 60.png */,
+				E96ABA1021C07EDC00908DC9 /* 80.png */,
+				E96ABA0C21C07EDA00908DC9 /* 87.png */,
+				E96ABA0A21C07EDA00908DC9 /* 120-1.png */,
+				E96ABA0921C07EDA00908DC9 /* 120.png */,
+				E96ABA0B21C07EDA00908DC9 /* 180.png */,
+				E96ABA0821C07ED900908DC9 /* 1024.png */,
+				E96ABA0F21C07EDC00908DC9 /* Contents.json */,
+				E90E3D8721BF1EFB00744A09 /* PreviewViewController.swift */,
+				E90E3D5821BEE75200744A09 /* main.storyboard */,
+				E96ABA1C21C0803700908DC9 /* Launchimage1.png */,
+				E90E3D4F21BED40400744A09 /* LaunchScreen.storyboard */,
+				E90E3D5221BED40400744A09 /* Info.plist */,
+				E96ABA1E21C081D600908DC9 /* Images.xcassets */,
+			);
+			path = "Disparity Camera";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90E3D3E21BED40100744A09 /* Disparity Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90E3D5521BED40400744A09 /* Build configuration list for PBXNativeTarget "Disparity Camera" */;
+			buildPhases = (
+				877DE9882A492FF1BDF33A0A /* [CP] Check Pods Manifest.lock */,
+				E90E3D3B21BED40100744A09 /* Sources */,
+				E90E3D3C21BED40100744A09 /* Frameworks */,
+				E90E3D3D21BED40100744A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Disparity Camera";
+			productName = "Disparity Camera";
+			productReference = E90E3D3F21BED40100744A09 /* Disparity Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E90E3D3721BED40100744A09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Howard Macbook pro";
+				TargetAttributes = {
+					E90E3D3E21BED40100744A09 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E90E3D3A21BED40100744A09 /* Build configuration list for PBXProject "Disparity Camera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E90E3D3621BED40100744A09;
+			productRefGroup = E90E3D4021BED40100744A09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90E3D3E21BED40100744A09 /* Disparity Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90E3D3D21BED40100744A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96ABA1A21C07EDD00908DC9 /* 80.png in Resources */,
+				E90E3D5921BEE75200744A09 /* main.storyboard in Resources */,
+				E96ABA1D21C0803700908DC9 /* Launchimage1.png in Resources */,
+				E90E3D5121BED40400744A09 /* LaunchScreen.storyboard in Resources */,
+				E96ABA1221C07EDD00908DC9 /* 1024.png in Resources */,
+				E96ABA1521C07EDD00908DC9 /* 180.png in Resources */,
+				E96ABA1F21C081D600908DC9 /* Images.xcassets in Resources */,
+				E96ABA1B21C07EDD00908DC9 /* 40.png in Resources */,
+				E96ABA1321C07EDD00908DC9 /* 120.png in Resources */,
+				E96ABA1721C07EDD00908DC9 /* 60.png in Resources */,
+				E96ABA1421C07EDD00908DC9 /* 120-1.png in Resources */,
+				E96ABA1821C07EDD00908DC9 /* 58.png in Resources */,
+				E96ABA0521C0734900908DC9 /* Launchimage2.png in Resources */,
+				E96ABA1621C07EDD00908DC9 /* 87.png in Resources */,
+				E96ABA1921C07EDD00908DC9 /* Contents.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		877DE9882A492FF1BDF33A0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Disparity Camera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E90E3D3B21BED40100744A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90E3D4921BED40100744A09 /* ViewController.swift in Sources */,
+				E90E3D4321BED40100744A09 /* AppDelegate.swift in Sources */,
+				E90E3D8821BF1EFC00744A09 /* PreviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E90E3D4F21BED40400744A09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90E3D5021BED40400744A09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E90E3D5321BED40400744A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E90E3D5421BED40400744A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E90E3D5621BED40400744A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3D7579507E23DB025C9E9B /* Pods-Disparity Camera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				INFOPLIST_FILE = "Disparity Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howard-camera-apps.Disparity-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E90E3D5721BED40400744A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6430D601627DD44045B413AC /* Pods-Disparity Camera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				INFOPLIST_FILE = "Disparity Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howard-camera-apps.Disparity-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E90E3D3A21BED40100744A09 /* Build configuration list for PBXProject "Disparity Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90E3D5321BED40400744A09 /* Debug */,
+				E90E3D5421BED40400744A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90E3D5521BED40400744A09 /* Build configuration list for PBXNativeTarget "Disparity Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90E3D5621BED40400744A09 /* Debug */,
+				E90E3D5721BED40400744A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E90E3D3721BED40100744A09 /* Project object */;
+}
